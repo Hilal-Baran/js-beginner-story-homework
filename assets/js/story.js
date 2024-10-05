@@ -40,3 +40,7 @@ if (cadiKarari === "a"){
 } else {
   console.log("Geçersiz seçim. Lütfen 1 veya 2 gir.");
 }
+
+if (cadıKararı === "1" || cadıKararı === "2") {
+  console.log("Cadıyı yendin ya da ikna ettin. Kayıp rüyayı geri almayı başardın. Köye döndüğünde, halk senin cesaretini ve zekânı takdir ediyor. Krallığın geleceği artık senin ellerinde!");
+}
