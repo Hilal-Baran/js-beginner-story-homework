@@ -28,3 +28,15 @@ if (canavarKarari === "a"){
 } else {
   console.log("Geçersiz seçim. Lütfen a veya b gir.");
 }
+
+console.log("Artık cadının yuvasına geldin. Cadı seni görünce gülümseyerek, kayıp rüyayı geri vermeye istekli olup olmadığını soruyor.");
+
+let cadiKarari = prompt("Cadı ile savaşa mı (a) yoksa onu ikna etmeye mi (b) çalışacaksın?");
+
+if (cadiKarari === "a"){
+  console.log("Cadı ile amansız bir savaş başlıyor. Büyülerini kullanarak ona karşı koyuyorsun!");
+} else if (cadiKarari === "b"){
+  console.log("Cadıyı ikna ediyorsun; aslında kayıp rüya, onun geçmişine aittir ve onu geri vermek istiyor.");
+} else {
+  console.log("Geçersiz seçim. Lütfen 1 veya 2 gir.");
+}
