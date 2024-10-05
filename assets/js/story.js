@@ -1,3 +1,5 @@
+console.log("Bir zamanlar, karanlık güçlerin huzursuz ettiği bir krallıkta, cadıların ve canavarların varlığı halkı korkutuyordu. Sen, bir Witcher olarak, insanların korkularını gidermek ve kaybolmuş ruhları bulmak için yola çıkıyorsun. Ama bu seferki görev, sıradan bir canavarı avlamaktan çok daha fazlasını gerektiriyor. Kayıp bir rüya, lanetli bir cadı tarafından çalındı ve bu rüya olmadan, krallığın geleceği tehlikeye girebilir.");
+
 let koyluTercihi = prompt("Hangisiyle konuşmak istersin? \n a)Korkmuş bir kadın b)cesur bir avcı");
 
 if (koyluTercihi === "a"){
@@ -41,6 +43,6 @@ if (cadiKarari === "a"){
   console.log("Geçersiz seçim. Lütfen 1 veya 2 gir.");
 }
 
-if (cadıKararı === "1" || cadıKararı === "2") {
+if (cadiKarari === "1" || cadiKarari === "2") {
   console.log("Cadıyı yendin ya da ikna ettin. Kayıp rüyayı geri almayı başardın. Köye döndüğünde, halk senin cesaretini ve zekânı takdir ediyor. Krallığın geleceği artık senin ellerinde!");
 }
