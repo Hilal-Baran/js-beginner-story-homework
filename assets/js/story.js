@@ -18,3 +18,13 @@ if (ormanYolu === "a"){
 } else {
   console.log("Geçersiz seçim. Lütfen a veya b gir.");
 }
+
+let canavarKarari = prompt("Canavarlarla yüzyüzesin. Neye karar vereceksin? \n a)savaşmaya b)iletişim kurmaya");
+
+if (canavarKarari === "a"){
+  console.log("Savaşmaya karar verdin ve cesaretinle canavarları yendin! Yoluna devam edebilirsin.");
+} else if (canavarKarari === "b"){
+  console.log("İletişim kurarak onları sakinleştiriyorsun ve yolunu açmalarını sağlıyorsun.");
+} else {
+  console.log("Geçersiz seçim. Lütfen a veya b gir.");
+}
