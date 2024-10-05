@@ -1,6 +1,7 @@
-console.log("Bir zamanlar, karanlık güçlerin huzursuz ettiği bir krallıkta, cadıların ve canavarların varlığı halkı korkutuyordu. Sen, bir Witcher olarak, insanların korkularını gidermek ve kaybolmuş ruhları bulmak için yola çıkıyorsun. Ama bu seferki görev, sıradan bir canavarı avlamaktan çok daha fazlasını gerektiriyor. Kayıp bir rüya, lanetli bir cadı tarafından çalındı ve bu rüya olmadan, krallığın geleceği tehlikeye girebilir.");
+alert("Bir zamanlar, karanlık güçlerin huzursuz ettiği bir krallıkta, cadıların ve canavarların varlığı halkı korkutuyordu. Sen, bir Witcher olarak, insanların korkularını gidermek ve kaybolmuş ruhları bulmak için yola çıkıyorsun. Ama bu seferki görev, sıradan bir canavarı avlamaktan çok daha fazlasını gerektiriyor. Kayıp bir rüya, lanetli bir cadı tarafından çalındı ve bu rüya olmadan, krallığın geleceği tehlikeye girebilir.");
 
-let koyluTercihi = prompt("Hangisiyle konuşmak istersin? \n a)Korkmuş bir kadın b)cesur bir avcı");
+alert("Yola çıktığında, küçük bir köye ulaşıyorsun. Köylüler, cadının karanlık güçlere sahip olduğunu söylüyor.")
+let koyluTercihi = prompt("Hangi köylüyle konuşmak istersin? \n a)Korkmuş bir kadın b)cesur bir avcı");
 
 if (koyluTercihi === "a"){
   console.log("Kadın, cadının gece vakti köyün yakınındaki ormanda yaşadığını söylüyor.");
